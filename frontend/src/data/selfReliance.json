@@ -1,0 +1,34 @@
+{
+  "domains": [
+    {
+      "name": "Navigation",
+      "indian": 100,
+      "foreign": 0,
+      "context": "NavIC constellation provides complete regional navigation coverage for India and surrounding areas."
+    },
+    {
+      "name": "EarthObservation",
+      "indian": 92,
+      "foreign": 8,
+      "context": "Cartosat, Resourcesat, Oceansat, and RISAT fleets cover most civilian and defense Earth observation needs."
+    },
+    {
+      "name": "DisasterManagement",
+      "indian": 95,
+      "foreign": 5,
+      "context": "INSAT weather satellites, RISAT radar, and Cartosat optical satellites provide comprehensive disaster monitoring."
+    },
+    {
+      "name": "Weather",
+      "indian": 70,
+      "foreign": 30,
+      "context": "INSAT-3D and INSAT-3DR provide primary weather monitoring, with some reliance on international data for global models."
+    }
+  ],
+  "insights": [
+    "Navigation signals are entirely powered by NavIC constellation, enabling complete independence from foreign GNSS systems.",
+    "Earth observation remains a core strength with Cartosat, Resourcesat, Oceansat, and RISAT series covering diverse applications.",
+    "Disaster management leverages INSAT weather satellites and RISAT radar imaging for comprehensive monitoring and response.",
+    "Weather services primarily use INSAT-3D and INSAT-3DR, with some international data integration for global weather models."
+  ]
+}

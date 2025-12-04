@@ -1,0 +1,18 @@
+{
+  "modules": [
+    {
+      "title": "Crew Module",
+      "description": "Pressurized capsule designed for three Vyomnauts with indigenous ECLSS, touchscreen avionics, and deceleration systems."
+    },
+    {
+      "title": "Abort & Safety",
+      "description": "Demo missions (TV-D1, D2) validate quick escape motors and recovery in the Bay of Bengal with the Indian Navy."
+    },
+    {
+      "title": "Mission Timeline",
+      "description": "Uncrewed flights in 2025–26 will precede the first crewed LEO mission, leveraging LVM3 and HAL-built crew modules."
+    }
+  ]
+}
+
+

@@ -1,0 +1,26 @@
+{
+  "modules": [
+    {
+      "title": "Orbit Fundamentals",
+      "path": "/learn/orbits",
+      "summary": "Understand LEO, MEO, GEO, SSO and how TLE + SGP4 power our tracker."
+    },
+    {
+      "title": "Launch Vehicles",
+      "path": "/learn/launchers",
+      "summary": "Compare PSLV, GSLV, and LVM3 lift capabilities fueling Swadeshi missions."
+    },
+    {
+      "title": "Gaganyaan",
+      "path": "/learn/gaganyaan",
+      "summary": "Crew module, abort tests, and indigenous life-support stack."
+    },
+    {
+      "title": "ISRO History",
+      "path": "/learn/history",
+      "summary": "Chandrayaan to Mangalyaan milestones shaping Atmanirbhar space."
+    }
+  ]
+}
+
+

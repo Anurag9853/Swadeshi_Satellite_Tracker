@@ -1,0 +1,38 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Orbital Arc -->
+  <path 
+    d="M 6 20 A 14 14 0 0 1 34 20" 
+    fill="none" 
+    stroke="white" 
+    stroke-width="2" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+    opacity="0.95"
+    style="filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.5));"
+  />
+  
+  <!-- Satellite Icon on Orbit -->
+  <g transform="translate(20, 6)">
+    <!-- Main Satellite Body -->
+    <rect x="-3.5" y="0" width="7" height="5" rx="1.5" fill="white" opacity="0.95"/>
+    <!-- Left Solar Panel -->
+    <rect x="-6" y="1.5" width="2.5" height="2" rx="0.5" fill="white" opacity="0.85"/>
+    <!-- Right Solar Panel -->
+    <rect x="3.5" y="1.5" width="2.5" height="2" rx="0.5" fill="white" opacity="0.85"/>
+    <!-- Antenna -->
+    <line x1="0" y1="0" x2="0" y2="-3" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.95"/>
+    <!-- Antenna Tip -->
+    <circle cx="0" cy="-3" r="1" fill="white" opacity="0.95"/>
+  </g>
+  
+  <!-- Subtle Orbit Trail -->
+  <path 
+    d="M 6 20 A 14 14 0 0 1 34 20" 
+    fill="none" 
+    stroke="white" 
+    stroke-width="1" 
+    stroke-linecap="round" 
+    stroke-dasharray="2,4" 
+    opacity="0.3"
+  />
+</svg>

@@ -1,0 +1,21 @@
+{
+  "vehicles": [
+    {
+      "name": "PSLV",
+      "payload": "1.7 t to LEO / 1.1 t to SSO",
+      "description": "The workhorse four-stage launcher mixing solid + liquid stages. Ideal for EO missions and commercial rideshares."
+    },
+    {
+      "name": "GSLV Mk-II",
+      "payload": "2.7 t to GTO",
+      "description": "Cryogenic upper stage enables GEO comsat deployments. Powers missions like GISAT and regional communications."
+    },
+    {
+      "name": "LVM3",
+      "payload": "4 t to GTO / 8 t to LEO",
+      "description": "Heavy-lift with twin S200 boosters and CE-20 cryogenic stage. Selected for Gaganyaan crew and deep-space missions."
+    }
+  ]
+}
+
+

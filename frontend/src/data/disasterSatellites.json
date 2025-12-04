@@ -1,0 +1,119 @@
+{
+  "disasters": [
+    {
+      "id": "cyclones",
+      "title": "Cyclones",
+      "summary": "Seasonal low-pressure systems from the Bay of Bengal demand fast imaging and ocean wind mapping.",
+      "satellites": [
+        {
+          "name": "INSAT-3D",
+          "role": "Rapid-scan infrared images and sounding for IMD warnings."
+        },
+        {
+          "name": "INSAT-3DR",
+          "role": "Advanced meteorological observation and weather forecasting for cyclone tracking."
+        },
+        {
+          "name": "Oceansat-3 (EOS-06)",
+          "role": "Scatterometer winds pinpoint cyclone intensity at sea."
+        }
+      ],
+      "response": [
+        "INSAT rapid imaging delivers storm center fixes every 15 minutes.",
+        "Oceansat scatterometer vectors help fishermen advisories and landfall prediction."
+      ]
+    },
+    {
+      "id": "floods",
+      "title": "Floods",
+      "summary": "Monsoon-fed rivers and cloudbursts require day-night radar coverage for inundation mapping.",
+      "satellites": [
+        {
+          "name": "RISAT-2BR1",
+          "role": "All-weather Synthetic Aperture Radar cuts through clouds for flood plain updates."
+        },
+        {
+          "name": "Cartosat-3",
+          "role": "Very high-resolution optical shots guide relief logistics and breach monitoring."
+        }
+      ],
+      "response": [
+        "RISAT provides district-level flood layers for NDMA dashboards.",
+        "Cartosat imagery supports bridge safety checks and evacuation routes."
+      ]
+    },
+    {
+      "id": "forest-fires",
+      "title": "Forest Fires",
+      "summary": "Western Ghats and Himalayan forests rely on thermal monitoring and smoke plume tracking.",
+      "satellites": [
+        {
+          "name": "Scatsat-1",
+          "role": "Ocean wind monitoring also supports fire weather pattern analysis."
+        },
+        {
+          "name": "RISAT-2BR1",
+          "role": "Radar imaging for all-weather fire detection and monitoring."
+        },
+        {
+          "name": "INSAT-3D",
+          "role": "Night-time infrared brightens fire pixels for quick response."
+        }
+      ],
+      "response": [
+        "Thermal anomaly feeds slip into Van Agni alerting system.",
+        "Geostationary coverage keeps fire control rooms updated every 15 minutes."
+      ]
+    },
+    {
+      "id": "landslides",
+      "title": "Landslides",
+      "summary": "Fragile Himalayan slopes need precise elevation models and rainfall-linked triggers.",
+      "satellites": [
+        {
+          "name": "Cartosat-2F",
+          "role": "Stereo pairs offer 1 m DEMs to detect slope instability."
+        },
+        {
+          "name": "GSAT-30",
+          "role": "Emergency SATCOM backhauls data from remote hill sensors."
+        }
+      ],
+      "response": [
+        "Cartosat DEM differencing flags slope creep near highways.",
+        "GSAT-30 ensures uninterrupted SDRF communication during fiber cuts."
+      ]
+    },
+    {
+      "id": "drought",
+      "title": "Drought",
+      "summary": "Arid belts of Vidarbha and Rayalaseema need soil moisture, vegetation, and groundwater cues.",
+      "satellites": [
+        {
+          "name": "Resourcesat-2A",
+          "role": "Multi-spectral Earth observation for vegetation and soil moisture monitoring."
+        },
+        {
+          "name": "RISAT-2BR1",
+          "role": "SAR-derived soil moisture indices for agriculture advisories."
+        }
+      ],
+      "response": [
+        "Resourcesat-2A provides vegetation indices for drought assessment.",
+        "RISAT moisture maps feed the National Agricultural Drought Assessment System."
+      ]
+    }
+  ],
+  "watchList": [
+    { "label": "Cartosat-2F", "identifier": 43111 },
+    { "label": "RISAT-2BR1", "identifier": 44857 },
+    { "label": "INSAT-3D", "identifier": 39216 },
+    { "label": "INSAT-3DR", "identifier": 41789 },
+    { "label": "Oceansat-3 (EOS-06)", "identifier": 54361 },
+    { "label": "Cartosat-3", "identifier": 44804 },
+    { "label": "Resourcesat-2A", "identifier": 41877 },
+    { "label": "Scatsat-1", "identifier": 41790 }
+  ]
+}
+
+

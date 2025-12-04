@@ -1,0 +1,36 @@
+{
+  "orbitTopics": [
+    {
+      "title": "Low Earth Orbit (LEO)",
+      "description": "Altitude 160–2000 km. Hosts Cartosat, RISAT, EOS, enabling high-resolution revisits for land mapping."
+    },
+    {
+      "title": "Medium Earth Orbit (MEO)",
+      "description": "Altitude 2,000–35,000 km. NavIC constellation flies in inclined geosynchronous slots for regional coverage."
+    },
+    {
+      "title": "Geostationary Orbit (GEO)",
+      "description": "36,000 km equatorial orbit matching Earth rotation. INSAT/GSAT deliver uninterrupted telecom and weather feeds."
+    },
+    {
+      "title": "Sun Synchronous Orbit (SSO)",
+      "description": "Polar orbit with consistent local time passes. Ideal for Earth observation constellations requiring uniform lighting."
+    }
+  ],
+  "tleInsights": [
+    {
+      "title": "Two-Line Elements (TLE)",
+      "text": "Compact NASA/NORAD format describing orbital planes, mean motion, eccentricity, and inclination."
+    },
+    {
+      "title": "SGP4 propagation",
+      "text": "Mathematical model that advances TLEs forward in time. Our backend uses tle.js to predict footprints."
+    },
+    {
+      "title": "Project link",
+      "text": "Prediction API ingests TLE per satellite, runs SGP4 for pass forecasts, and streams coordinates to the map."
+    }
+  ]
+}
+
+
